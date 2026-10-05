@@ -1,19 +1,27 @@
 #SiteLogo img {
-	filter: hue-rotate(195deg) saturate(10);
+	filter: hue-rotate(-60deg) saturate(10);
 }
 
 spriteicon,
 #SubNavigator li spriteIcon,
 #SubNavigator .ActiveEntry spriteIcon {
-	filter: grayscale(100%) sepia(100%) hue-rotate(210deg) saturate(400%);
+	filter: grayscale(100%) sepia(100%) hue-rotate(-60deg) saturate(400%);
 }
 
 a {
-	color: #ff77ff;
+	color: #ff7777;
 }
 
 a:hover {
 	color: #ffffff;
+}
+
+button.IconButton {
+	--DefaultGreenColor: #ffa0a0;
+}
+
+#ProgressReportModule {
+	--DefaultBlueColor: #ff7777;
 }
 
 .AvatarImage {
@@ -46,10 +54,6 @@ spriteIcon.ContentRatingIcon {
 	border-radius: 0 0px 7px 7px;
 }
 
-button.IconButton {
-	--DefaultGreenColor: #ffa0ff;
-	/*! --DefaultRedColor: #86003f; */
-}
 #AuthorsAndRolesModule {
 	font-family: "Synkopy";
 }
@@ -65,10 +69,6 @@ button.IconButton {
 	--DefaultTinyFontSize: 0.9rem;
 	--DefaultMediumFontSize: 1.05rem;
 	--ModuleTitleFontSize: 1.3rem;
-}
-
-#ProgressReportModule {
-	--DefaultBlueColor: #ff77ff;
 }
 
 @font-face {
